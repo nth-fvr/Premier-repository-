@@ -29,15 +29,17 @@ def accueil():
 def presentation():
     return """
     <h1>Nathan Février</h1>
-    <p>Je suis étudiante en <strong>Bachelor Internationnal en B1</strong>.</p>
+    <p>Je suis étudiant en <strong>Bachelor Internationnal en B1</strong>.</p>
     <h2>Ce que j'aime</h2>
-    <ul>
+    <ol>
         <li>Les jeux vidéo</li>
         <li>La musique</li>
         <li>Le code (bientôt !)</li>
-    </ul>
-    """
+    </ol>
 
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="100">
+    """
+    
 @app.get("/loisir")
 def loisir():
     return "J'aime les sports automobile."
