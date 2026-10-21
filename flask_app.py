@@ -30,12 +30,12 @@ def presentation():
     <h1>Nathan Février </h1>
     <p>Je suis étudiante en <strong>Bachelor Interantionnal (B1)</strong>.</p>
     <h2>Ce que j'aime</h2>
-    <ul>
+    <ol>
         <li>Les jeux vidéo</li>
         <li>La musique</li>
         <li>Le code (bientôt !)</li>
-        <li> les sport mecaniques
-    </ul>
+        <li> les sport mecaniques </li>
+    </ol>
     """
 
 @app.get("/loisir")
