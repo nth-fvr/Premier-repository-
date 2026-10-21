@@ -24,7 +24,13 @@ def accueil():
 # ---------------------------------------------------------------
 #  Ajoutez vos nouvelles routes ci-dessous 👇
 # ---------------------------------------------------------------
+@app.get("/presentation")
+def presentation():
+    return "je m'appelle Nathan (COUCOU NATHAN) et je suis etudiant a l'Icam GPS."
 
+@app.get("/loisir")
+def presentation():
+    return "J'aime les sports automobile."
 
 
 # ---------------------------------------------------------------
