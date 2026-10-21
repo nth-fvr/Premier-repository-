@@ -26,7 +26,17 @@ def accueil():
 # ---------------------------------------------------------------
 @app.get("/presentation")
 def presentation():
-    return "je m'appelle Nathan (COUCOU NATHAN) et je suis etudiant a l'Icam GPS."
+    return return """
+    <h1>Nathan Février </h1>
+    <p>Je suis étudiante en <strong>Bachelor Interantionnal (B1)</strong>.</p>
+    <h2>Ce que j'aime</h2>
+    <ol>
+        <li>Les jeux vidéo</li>
+        <li>La musique</li>
+        <li>Le code (bientôt !)</li>
+        <li> les sport mecaniques
+    </ol>
+    """
 
 @app.get("/loisir")
 def loisir():
