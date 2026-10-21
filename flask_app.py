@@ -1,4 +1,4 @@
-# ---------------------------------------------------------------
+l# ---------------------------------------------------------------
 #  Mon premier site Web avec Flask
 # ---------------------------------------------------------------
 #  Ce fichier est le "cerveau" de votre site : c'est lui qui
@@ -26,7 +26,7 @@ def accueil():
 # ---------------------------------------------------------------
 @app.get("/presentation")
 def presentation():
-    return "Je m'appelle Léa et je suis étudiante en informatique."
+    return "je m'appelle Nathan (COUCOU NATHAN) et je suis etudiant a l'Icam GPS."
 
 
 # ---------------------------------------------------------------
