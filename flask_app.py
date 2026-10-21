@@ -29,7 +29,7 @@ def presentation():
     return "je m'appelle Nathan (COUCOU NATHAN) et je suis etudiant a l'Icam GPS."
 
 @app.get("/loisir")
-def presentation():
+def loisir():
     return "J'aime les sports automobile."
 
 
