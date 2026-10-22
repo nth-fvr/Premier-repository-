@@ -31,13 +31,14 @@ def presentation():
     <h1>Nathan Février</h1>
     <p>Je suis étudiant en <strong>Bachelor Internationnal en B1</strong>.</p>
     <h2>Ce que j'aime</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="100">
     <ol>
         <li>Les jeux vidéo</li>
         <li>La musique</li>
         <li>Le code (bientôt !)</li>
     </ol>
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="100">
+    
     """
     
 @app.get("/loisir")
