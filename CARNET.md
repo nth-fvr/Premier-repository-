@@ -27,15 +27,15 @@
 
 1. Dans l'URL `https://www.google.com/maps`, quel est le nom de domaine ? Quel est le chemin ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ le nom de domaine est www.google.com et le chemin est /maps.
 
 2. Que veut dire le message *Not Found* ? Qui l'a envoyé : votre navigateur ou le serveur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Not Found veut dire que la page demandée n'a pas été trouvée. C'est le serveur qui envoie ce message au navigateur.
 
 3. Que se passe-t-il si deux fonctions portent le même nom dans `flask_app.py` ? (Indice : essayez, puis lisez l'Error log.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Python remplace la première fonction par la deuxième
 
 ---
 
@@ -45,13 +45,13 @@
 
    > _Ma réponse :_ 
 
-2. À quoi servent les balises `<h1>`, `<p>`, `<ul>` et `<li>` ?
+2. À quoi servent les balises `<h1>`, `<p>`, `<ul> ` et `<li>` ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ <h1>: c'est pour le titre principal`, `<p>: c'est pour faire des paragraphes`, sert à créer une liste à puces. <li> : sert à créer un élément de liste.
 
 3. Pourquoi l'image s'affiche-t-elle alors qu'elle n'est pas sur votre serveur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ parce que l'image est hébergée sur un autre serveur. Le navigateur utilise son URL pour la trouver.
 
 ---
 
@@ -59,7 +59,7 @@
 
 1. Pourquoi est-ce une bonne idée de séparer le code Python et le HTML ? (Pensez à une équipe avec un développeur et un graphiste.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ cela permet au développeur de s'occuper du fonctionnement du site et au graphiste de s'occuper de son apparence, c'est plus simple pour tout le monde 
 
 2. Les `{{ prenom }}` sont-ils remplacés par le serveur ou par le navigateur ? Comment l'avez-vous vérifié ?
 
