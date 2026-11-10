@@ -79,6 +79,7 @@ def moi():
         navigateur=request.headers.get("User-Agent"),
         langues=request.headers.get("Accept-Language"),
         entetes=request.headers,
+    )
 
 # Une page d'erreur 404 personnalisée
 @app.errorhandler(404)
