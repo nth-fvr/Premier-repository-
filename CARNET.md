@@ -47,7 +47,7 @@
 
 2. À quoi servent les balises `<h1>`, `<p>`, `<ul> ` et `<li>` ?
 
-   > _Ma réponse :_ <h1>: c'est pour le titre principal`, `<p>: c'est pour faire des paragraphes`, sert à créer une liste à puces. <li> : sert à créer un élément de liste.
+   > _Ma réponse :_ <h1>: c'est pour le titre principal `, `<p>: c'est pour faire des paragraphes `,<ul>  créer une liste a puce. <li> : sert a créer des éléments de listes
 
 3. Pourquoi l'image s'affiche-t-elle alors qu'elle n'est pas sur votre serveur ?
 
