@@ -92,6 +92,11 @@ def api_heure():
         "message": "Bonjour depuis mon API !",
     })
 
+
+@app.get("/horloge")
+def horloge():
+    return render_template("horloge.html")
+
 # Une page d'erreur 404 personnalisée
 @app.errorhandler(404)
 def page_introuvable(erreur):
