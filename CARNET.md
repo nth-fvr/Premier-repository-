@@ -155,11 +155,11 @@
 
 1. Citez trois informations que le serveur connaît sur vous, sans que vous ayez rien rempli.
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le serveur peut connaître mon adresse IP, le navigateur que j'utilise et les langues que je préfère. Ces informations sont envoyées automatiquement par mon navigateur.
 
 2. À quoi peut servir l'en-tête `Accept-Language` pour un site comme Wikipédia ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Il permet à Wikipédia de connaître les langues préférées de l'utilisateur et de lui proposer directement une version du site dans une langue adaptée.
 
 3. Dans l'Access log, retrouvez une requête qui a reçu un code `404`. Quelle page était demandée ?
 
@@ -167,7 +167,7 @@
 
 4. Après cet exercice, que pensez-vous de la notion de « navigation anonyme » ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Je pense que la navigation n'est pas totalement anonyme, car les sites peuvent récupérer automatiquement certaines informations comme l'adresse IP, le navigateur et les langues utilisées. Il est donc possible de laisser des traces même sans remplir de formulaire.
 
 ---
 
@@ -175,7 +175,7 @@
 
 1. Quelle est la différence entre une page HTML et une réponse JSON ? À qui chacune est-elle destinée ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le HTML sert à construire et afficher une page web pour les utilisateurs. Le JSON sert à transmettre des données organisées entre différents programmes ou applications.
 
 2. Dans la page `/horloge`, quel code s'exécute sur le **serveur** et quel code s'exécute dans le **navigateur** ?
 
@@ -183,7 +183,7 @@
 
 3. Citez une application de votre téléphone qui, selon vous, utilise une API. Quelles données échange-t-elle ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ L'application météo utilise une API pour récupérer des informations comme la température, les prévisions météorologiques, la vitesse du vent et les risques de pluie. Le serveur envoie ces données à l'application pour qu'elle puisse les afficher.
 
 ---
 
@@ -191,4 +191,4 @@
 
 En quelques phrases, expliquez à un ami ce qui se passe entre le moment où il tape une adresse dans son navigateur et celui où la page s'affiche :
 
-> _Ma réponse :_ 
+> _Ma réponse :_Lorsque l'on tape une adresse dans le navigateur, celui-ci envoie une requête au serveur du site demandé. Le serveur reçoit la demande, traite les informations et renvoie une réponse contenant généralement du HTML, du CSS et parfois des images. Le navigateur récupère ces fichiers, les interprète et les utilise pour afficher la page à l'écran.
