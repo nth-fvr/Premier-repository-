@@ -63,7 +63,7 @@
 
 2. Les `{{ prenom }}` sont-ils remplacés par le serveur ou par le navigateur ? Comment l'avez-vous vérifié ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ ils sont remplaces par le serveur. On peut le vérifier en affichant le code source de la page : le prénom apparaît directement à la place de {{ prenom }}.
 
 ---
 
@@ -71,15 +71,15 @@
 
 1. Quelle est la différence de rôle entre le HTML et le CSS ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le HTML sert à organiser le contenu de la page, tandis que le CSS sert à gérer son apparence
 
 2. Pour afficher votre page `/presentation`, combien de fichiers le navigateur doit-il télécharger ? (Vous pourrez le vérifier à l'exercice suivant !)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Deux fichiers principaux : le fichier HTML de présentation et le fichier CSS, si il y a une image dans la page alors le navigateur doit aussi la télécharger 
 
 3. Pourquoi faut-il parfois faire **Ctrl + F5** pour voir les changements de CSS ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ pour recharger la page pour recharger les fichiers 
 
 ---
 
@@ -87,7 +87,7 @@
 
 1. Que signifie HTTP ? Qui envoie la **requête** et qui envoie la **réponse** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ HTTP signifie HyperText Transfer Protocol. Le navigateur envoie la requête au serveur qui va renvoyer une réponse.
 
 2. Combien de requêtes votre page `/presentation` a-t-elle déclenchées ? Lesquelles ?
 
@@ -95,11 +95,11 @@
 
 3. Que signifie le code `200` ? Et le code `404` de la favicon ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le code 200 signifie que la requête a réussi. Le code 404 signifie que la ressource demandée n'a pas été trouvée, ici l'icône du site appelée favicon
 
 4. Pourquoi les modifications faites dans l'onglet Éléments ne sont-elles pas visibles par les autres visiteurs ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Parce qu'elles modifient seulement la page affichée dans mon propre navigateur et ca change pas les fichiers présents sur le serveur.
 
 ---
 
@@ -107,15 +107,15 @@
 
 1. Dans l'URL `https://www.youtube.com/results?search_query=chat`, quel est le nom du paramètre ? Quelle est sa valeur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le nom du paramètre est search_query et sa valeur est chat.
 
 2. Pourquoi le serveur plante-t-il avec `a=bonjour` ? Que faudrait-il faire pour l'éviter ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le serveur peut planter si le code essaie de convertir bonjour en nombre. Il faut vérifier la valeur reçue et gérer les erreurs avec try/except.
 
 3. Pourquoi est-il dangereux d'afficher **tel quel** ce que l'utilisateur envoie ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Parce qu'un utilisateur peut envoyer du code HTML ou JavaScript malveillant. Cela pourrait modifier la page ou exécuter du code dans le navigateur.
 
 ---
 
@@ -123,15 +123,15 @@
 
 1. Quelle est la différence visible entre GET et POST ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Avec GET, les données apparaissent dans l'URL. Avec POST, elles sont envoyées dans le corps de la requête et ne sont pas visibles directement dans l'URL.
 
 2. Pour un formulaire de **recherche**, quelle méthode choisiriez-vous ? Et pour un formulaire de **connexion avec mot de passe** ? Pourquoi ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Pour une recherche, je choisirais GET, car les mots recherchés apparaissent dans l'URL et peuvent être partagés. Pour une connexion, je choisirais POST, car le mot de passe n'apparaît pas dans l'URL.
 
 3. Les données envoyées en POST sont-elles vraiment « secrètes » ? (Pensez à ce que vous avez vu dans l'onglet Réseau.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Non, car elles peuvent être visibles dans l'onglet Réseau du navigateur.
 
 ---
 
@@ -139,15 +139,15 @@
 
 1. Quelle est la différence entre une erreur `4xx` et une erreur `5xx` ? Qui est « fautif » dans chaque cas ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Les erreurs 4xx viennent d'une mauvaise demande du client, par exemple une page qui n'existe pas (404). Les erreurs 5xx viennent d'un problème du serveur
 
 2. Comment fonctionne une redirection ? Qui fait la deuxième requête : le serveur ou le navigateur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le serveur indique au navigateur une nouvelle adresse grâce à l'en-tête Location. C'est ensuite le navigateur qui fait une deuxième requête vers cette adresse.
 
 3. Donnez un exemple de situation où un vrai site utilise une redirection.
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Lorsqu'on n'est pas connecté à un site et qu'on essaie d'accéder à une page réservée aux membres, le site peut nous rediriger vers la page de connexion.
 
 ---
 
